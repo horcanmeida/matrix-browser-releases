@@ -1,0 +1,22 @@
+{
+  "format": 1,
+  "channel": "internal",
+  "version": "0.4.0-alpha.7",
+  "publishedAt": "2026-11-01T12:41:44.000Z",
+  "notes": "# 矩阵浏览器 0.4.0-alpha.7 · 双端内测版\n\n此版整合此前同一项目的数据链路、平台入口与本地交互修复。用于 Mac Apple Silicon 和 Windows x64 内测，尚未完成所有真实平台验收。\n\n主要变化：网页显示恢复与异常提示；标签快捷键及焦点修复；账号归组和独立管理页面；人工发布证据去重与备份保护；账号数据链路整合。\n\n已知问题：视频号登录仍未解决；历史真实白屏根因未确认；五平台真实填入、原文件接收与数据完整性未全部验收；部分快手、B站自动报表及生产发布监听仍未完成。\n\nMac 为临时签名、未公证；Windows 未签名。请先阅读本页附件 INSTALL.zh-CN.html，核对来源后按系统提供的单个应用确认流程处理；不关闭安全保护。更新前请先备份并退出旧版，沿用原安装目录和资料目录。\n\n首次授权：软件内“授权管理 → 复制设备授权申请”，将申请发给签发人，收到文件后“导入授权文件”。每台电脑、每个系统用户分别申请。内测期限按签发时约定，从签发时起计算。\n\n下载此页安装包不需要访问私有代码仓库。alpha.7 的旧更新模块仍有限制，软件内公开更新与下载流程将随下一版提供。软件不会自动安装或重启。\n",
+  "releaseURL": "https://github.com/horcanmeida/matrix-browser-releases/releases/tag/hongguan-workbench-v0.4.0-alpha.7",
+  "assets": {
+    "darwin-arm64": {
+      "url": "https://github.com/horcanmeida/matrix-browser-releases/releases/download/hongguan-workbench-v0.4.0-alpha.7/hongguan-workbench-0.4.0-alpha.7-mac-arm64.dmg",
+      "name": "hongguan-workbench-0.4.0-alpha.7-mac-arm64.dmg",
+      "bytes": 126305917,
+      "sha256": "e90204d86b1eef0df20124e179f1d1d248dcd5b9e009d8043e0c15ac3573f241"
+    },
+    "win32-x64": {
+      "url": "https://github.com/horcanmeida/matrix-browser-releases/releases/download/hongguan-workbench-v0.4.0-alpha.7/hongguan-workbench-0.4.0-alpha.7-win-x64-setup.exe",
+      "name": "hongguan-workbench-0.4.0-alpha.7-win-x64-setup.exe",
+      "bytes": 123029571,
+      "sha256": "712e1bd3b1f1be2979038646275a51e4f65ce056e7b29edbdbb0e7f01e28c747"
+    }
+  }
+}

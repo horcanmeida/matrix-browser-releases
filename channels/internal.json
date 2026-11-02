@@ -1,22 +1,22 @@
 {
   "format": 1,
   "channel": "internal",
-  "version": "0.4.0-alpha.9",
-  "publishedAt": "2026-11-02T04:43:09Z",
-  "notes": "# 矩阵浏览器 0.4.0-alpha.9｜在线授权内测候选\n\n延续alpha.8和Dot已整合的同一份项目，保持cn.horcan.workbench与hongguan-workbench资料目录，原账号、会话、素材、记录和有效旧授权沿用。面向Mac Apple Silicon及Windows x64内部测试。\n\n本版新增：默认粘贴MXA1短码；首次成功激活起算14天并绑定当前电脑，无需复制设备申请；管理员可续期、停用、恢复与允许换机。最长24小时有效离线租约，且不越总到期，停用/换机在线下次核验生效。旧MXL1离线授权保持兼容。授权页显示有效期与核验状态，首次激活可进入使用向导。\n\n授权服务目前已开放内部签发，已有三枚待激活码的真实签发记录；尚未完成真实Windows首次激活、续期停用换机全链路验收。包内安装说明保留封包时的未开放状态，此处给出2026-11-02的服务现状；不能把签发成功当客户端激活通过。\n\n本次公开内测下载与更新清单补齐到alpha.9，解决发行信息仍停在alpha.7的问题。alpha.9已有软件内检查、版本说明、进度、取消和SHA256下载校验；完整跨版本安装体验仍待真实验收，下载完成不等于已安装。一级激活入口及进一步更新状态优化属于后续alpha.10候选，未包含在本包。\n\n已知未通过项：视频号真实登录仍会退回二维码；历史快手下载子窗关闭白屏根因未确认；五平台真实上传/填入、完整无感采集及发布成功监听仍未全部验收。不要把受控测试当真实平台已修复。内测请停在最终发布前，不投放、不付款、不覆盖已有草稿。\n\nMac临时签名未公证，Windows未签名。安装前核对SHA256，保存工作、正常退出，保留旧版本和私密备份，按系统允许的单应用确认流程处理；遇恶意软件、损坏或设备策略拒绝请停止，不关闭系统保护。覆盖安装保持原资料目录，不删除账号、授权或素材。旧备份不要覆盖活动数据库。\n\n源码1692851b80c375d3d9cf26b7ef4ab887f82cb002，双端CI41378788402通过：各504项Node、9项隔离原生授权及其余原生回归；144个包内运行文件来源核对。Windows2022 CI不等于Windows10真实设备；受控通过不代表上述未完成项通过。\n\n2026-11-02后续真实网络复核：alpha.9现有更新下载器遇Electron手动302跳转会失败（Redirect was cancelled）。本次仅补齐公开发行信息，alpha.9用户如需升级请先手动下载安装；下载传输修复与一级激活入口属于alpha.10候选，须按其实际验证状态验收，不能当作已装在alpha.9中。静态说明附件保留封包时状态，以本页补充说明为准。",
-  "releaseURL": "https://github.com/horcanmeida/matrix-browser-releases/releases/tag/hongguan-workbench-v0.4.0-alpha.9",
+  "version": "0.4.0-alpha.10",
+  "publishedAt": "2026-11-02T10:07:37Z",
+  "notes": "矩阵浏览器 0.4.0-alpha.10｜授权与安装专项内测\n\nMac M系列与Windows 10/11 x64使用同一冻结源码064061a，承接alpha.9与Dot已有功能。\n\n本版接入腾讯云授权服务，首次激活不要求VPN。需要管理员单独发放的腾讯云配套新码，旧alpha.9在线码不能兑换；已有Mac在线授权升级时请先领取新码。本地账号、会话、素材和记录保留，旧离线许可保持原期限。请先备份并正常退出旧版，再沿用原目录安装，不删除资料目录。\n\n新增一级“激活软件/授权管理”入口，更新下载支持受限302跳转并校验文件大小和SHA256；Windows安装创建桌面及开始菜单图标，覆盖安装补回缺失桌面图标。\n\n管理员可选择首次激活后3/7/14/30/90/120/180/365天，填写使用人和备注、查看详情、续期/停用/换机；以授权页实际到期时间为准，当前三位内测码14天。客户端部分说明仍写14天，后续统一更新。离线最多24小时且不超过总到期。\n\nMac临时签名未公证，Windows未签名，按系统提示由本人确认；系统明确禁止、损坏或恶意软件提示请停止并反馈，不关闭保护。\n\n已通过同源双端CI和受控原生验证、Windows实际安装快捷方式回归及生产HTTPS授权合同；真实Windows10普通网络首次激活仍待内测者验收。视频号登录、历史下载子窗关闭白屏、五平台素材和完整数据验收仍有未解决项，本次内测包不代表已修复。\n\n旧alpha.9能检查到新版本，但其下载302缺陷可能使首次升级需要使用本次文件手动安装。alpha.10包含该下载修复；公开分发源仍使用GitHub，不能据此声称全部地区免VPN下载已验收。",
+  "releaseURL": "https://github.com/horcanmeida/matrix-browser-releases/releases/tag/hongguan-workbench-v0.4.0-alpha.10",
   "assets": {
     "darwin-arm64": {
-      "url": "https://github.com/horcanmeida/matrix-browser-releases/releases/download/hongguan-workbench-v0.4.0-alpha.9/hongguan-workbench-0.4.0-alpha.9-mac-arm64.dmg",
-      "name": "hongguan-workbench-0.4.0-alpha.9-mac-arm64.dmg",
-      "bytes": 126504732,
-      "sha256": "b9d7069901cba4712e8e1c7a9d693854cbf251491b314fec8f0326bbeb0c45d8"
+      "url": "https://github.com/horcanmeida/matrix-browser-releases/releases/download/hongguan-workbench-v0.4.0-alpha.10/hongguan-workbench-0.4.0-alpha.10-mac-arm64.dmg",
+      "name": "hongguan-workbench-0.4.0-alpha.10-mac-arm64.dmg",
+      "bytes": 126523004,
+      "sha256": "ca24b4ef4a53c680b6da8e6ff7b5ed98c69f3511ea921f3114cfb7668d65b479"
     },
     "win32-x64": {
-      "url": "https://github.com/horcanmeida/matrix-browser-releases/releases/download/hongguan-workbench-v0.4.0-alpha.9/hongguan-workbench-0.4.0-alpha.9-win-x64-setup.exe",
-      "name": "hongguan-workbench-0.4.0-alpha.9-win-x64-setup.exe",
-      "bytes": 123206387,
-      "sha256": "62b80c4ddbb7aa3b9abebfc2255f959b4b087b3532e40b0a2b1bab594aaade5c"
+      "url": "https://github.com/horcanmeida/matrix-browser-releases/releases/download/hongguan-workbench-v0.4.0-alpha.10/hongguan-workbench-0.4.0-alpha.10-win-x64-setup.exe",
+      "name": "hongguan-workbench-0.4.0-alpha.10-win-x64-setup.exe",
+      "bytes": 123210189,
+      "sha256": "5948acb878d4b448a4461cb05c31907b516105dce7785ee677976c295053fb44"
     }
   }
 }
